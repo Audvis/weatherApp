@@ -5,7 +5,7 @@ import img from '../weatherWorld.jpg'
 const Intro = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.titulo}>Weather App</h1>
+      <h1 className={styles.titulo}>Weather </h1>
       <img src={img} alt="" className={styles.img}/>
     </div>
   );
