@@ -1,0 +1,17 @@
+
+.ulCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+
+li {
+    list-style: none;
+  }
+
+
+  li:last-child{
+      margin-bottom: 150px;
+  }

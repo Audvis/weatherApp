@@ -1,0 +1,113 @@
+
+.card {
+    /* background-color: var(--primary); */
+    width:270px;
+    height: 250px;
+    background-color: var(--primaryBox);
+    border: solid var(--secondary) 2px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+    padding-top: 20px;
+    backdrop-filter: blur(2.2px);
+    box-shadow: 2px 4px var(--shadow);
+    transition-duration: .5s;
+  }
+  @media (max-width: 500px) {
+    .card{
+      width: 70vw;
+    }
+  }
+
+  .card:hover{
+    transform: scale(1.08);
+    transition-duration: .5s;
+    box-shadow: 4px 8px var(--shadow);
+  }
+
+.container {
+    display: flex;
+    height: 7px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  
+
+.x {
+  float: right;
+  margin-bottom: 10px;
+  padding: auto ;
+  background-color: var(--alert);
+  color: var(--white);
+  border-radius: 15px;
+  transition-duration: .5s;
+  border: none;
+  box-shadow: .5px 1px var(--shadow);
+}
+
+.x:hover{
+  background-color: var(--secondary);
+  transition-duration: .5s;
+}
+
+.tituloCard {
+  margin-left: 15px;
+  color: var(--white)
+}
+
+
+.subTitulosMin {
+  font-weight: bold;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+  /* color: yellow; */
+}
+
+.subTitulosMax {
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--white);
+    /* color: var(--alert) */
+  }
+
+
+
+.min{
+    font-weight: 500;
+    color: var(--min);
+}
+
+.max{
+    font-weight: 500;
+    color: var(--max);
+}
+
+.contImg{
+  display: block;
+}
+
+.btn{
+  background-color: var(--secondary);
+  border-radius: 30px;
+  color: var(--white);
+  padding: 5px 15px;
+  border: none;
+  position: absolute;
+  bottom: 21px;
+  right: 37px;
+  transition-duration: .5s;
+}
+ 
+.btn:hover{
+  background-color: var(--white);
+ color: var(--secondary);
+
+ transition-duration: .5s;
+}
+ 

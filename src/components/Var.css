@@ -1,0 +1,49 @@
+
+/**Variables */
+:root{
+    --back: white;
+    --shadow: rgba(0, 0, 0, 0.4);
+    --primary:#1fb1ff;
+    --primaryBox: rgba(24, 113, 161,.7);
+    --secondary: #02bf6a;
+    --other: #EBDCBC;
+    --white: #fafafa;
+    --black:  rgb(24, 24, 24);
+    --blackTwo: rgb(24, 24, 24);
+    --alert: #d92b48;
+    --min: #fffc46;
+    --max: #ff7d6c;
+  }
+  
+  
+ /** Globales */
+
+ ::placeholder{
+   color: var(--secondary);
+ }
+
+ body{
+   background:
+   url(https://www.etapainfantil.com/wp-content/uploads/2015/11/Mapamundi-topogr%C3%A1fico-para-imprimir.jpg)
+   no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+
+
+
+ /** Targeta demo*/
+.cardOne{
+  margin: auto;
+  width: 350px;
+}
+@media (max-width: 1000px) {
+ .cardOne{
+   margin: auto;
+   width: 100%;
+ }
+}
+
+
+
+ 

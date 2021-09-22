@@ -1,0 +1,38 @@
+.leaflet-container{
+    border-radius: 40px;
+    width: 23rem;
+    height: 17rem;
+     position: absolute;
+     bottom: 130px;
+     right: 90px;
+     
+}
+@media (max-width: 1000px) {
+    .leaflet-container {
+   position:relative;
+   margin: auto;
+   margin-left: 40%;
+   margin-top: 70px;
+  }
+}
+@media (max-width: 500px) {
+    .leaflet-container {
+  right: 18%;
+  
+  }
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin-right: 40px;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+  
+}
