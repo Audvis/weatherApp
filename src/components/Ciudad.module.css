@@ -2,42 +2,39 @@
 .container{  
   border-radius: 35px;
     background-color: var(--black);
-    width: 6000px;
+    width: 1300px;
     height: 700px;
-    margin: 30px 50px 30px 15px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: solid 2px var(--secondary);
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
-  @media (max-width: 900px) {
+  @media (max-width: 1650px) {
     .container {
-      width: 95%;
+      width: 80%;
       height: fit-content;
-      margin: auto;
-      margin-top: 50px;
     }
   }
-  @media (max-width: 300px) {
+  @media (max-width: 360px) {
     .container {
-      width: 96%;
-    
-    }
-  }
-  @media (max-width: 540px) {
-    .container {
-      
+      width: 100%;
+     margin: 0;
+     margin-top: 20px;
+     margin-bottom: 20px;
     }
   }
   @media (max-height: 1366px) {
     .container {
-      width: 98%;
+    
       height: 80vh;
     }
   }
   @media (max-height: 1024px) {
     .container {
-      width: 98%;
+      
       height: fit-content;
     }
   }
