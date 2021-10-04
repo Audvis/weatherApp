@@ -1,6 +1,4 @@
 # Weather App
-
-<h3>Weather App</h3>
 https://weather-app-indol-kappa.vercel.app/
 
 
