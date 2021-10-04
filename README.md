@@ -12,7 +12,7 @@ Proyecto realizado como parte de los ejercicios del bootcamp de desarrollo web f
 * __Javascript__
 * __React - Redux__
 * __Hooks__
-* 
+
 
 ## Instalación :feet:
 
@@ -39,17 +39,4 @@ npm start >> E-Commerce/client/
    <a><img width="12%" src="https://github.com/Audvis/weatherApp/blob/main/img/weatherMovil4.png"></a>
 </p>
 
-<p align='left'>
-    <img src='https://github.com/WanCirone/E-Commerce/blob/main/images/logo%20altres%205.png' </img>
-</p>
-
-
-## Contribuidores :mortar_board: 
-
-* [Victoria Cabrera](https://github.com/VickyCabrera)
-* [Leandro Alvarez](https://github.com/ElefanteNegro)
-* [Julieta Rubio](https://github.com/JuliRubio)
-* [Facundo Sadava](https://github.com/facusada)
-* [Marcelo Britos](https://github.com/MarceloBritos)
-* [Wanda Cirone](https://github.com/WanCirone)
 
