@@ -1,6 +1,6 @@
 # Weather App
 
- <a><img width="80%" src="https://github.com/Audvis/weatherApp/blob/main/img/weatherPC1.png"></a>
+ <a><img width="100%" src="https://github.com/Audvis/weatherApp/blob/main/img/weatherPC1.png"></a>
 
 https://weather-app-indol-kappa.vercel.app/
 
