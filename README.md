@@ -17,11 +17,10 @@ Proyecto realizado como parte de los ejercicios del bootcamp de desarrollo web f
 ## Instalación :feet:
 
 ```
-git clone https://github.com/WanCirone/pedidoTopia.git
-npm install >> E-Commerce/api/
-npm start >> E-Commerce/api/
-npm install >> E-Commerce/client/
-npm start >> E-Commerce/client/
+git clone https://github.com/Audvis/weatherApp.git
+npm install >> weatherApp/
+npm start >> weatherApp/
+
 ```
 
 ## Previews:
